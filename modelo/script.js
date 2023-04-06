@@ -11,6 +11,7 @@ function carregar(){
         img.src = './assets/img/manha.png'
     } else if (hora >= 12 && hora < 18){
         //boa tarde
+        
         img.src = './assets/img/tarde.png'
     }else{
         //boa noite
