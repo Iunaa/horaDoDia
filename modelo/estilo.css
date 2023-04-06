@@ -1,5 +1,5 @@
 body{
-    background: rgb(87, 87, 255);
+   
     font: normal 15pt Arial;
 }
 
@@ -22,4 +22,10 @@ footer{
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#imagem{
+    padding-top: 20px;
+    width: 280px;
+    height: 280px;
 }
