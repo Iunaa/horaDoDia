@@ -11,17 +11,17 @@ function carregar(){
     if(hora >= 0 && hora < 12){
         //bom dia
         img.src = './assets/img/manha.png'
-        container.style.background = '#fbf8cc' 
+        container.style.background = '#e2cd9f' 
         
     } else if (hora >= 12 && hora < 18){
         //boa tarde
 
         img.src = './assets/img/tarde.png'
-        container.style.background = '#ffbf69'
+        container.style.background = '#b9846f'
     }else{
         //boa noite
         img.src = './assets/img/noite.png'
-        container.style.background = '#01497c'
+        container.style.background = '#515154'
     }
 
 
